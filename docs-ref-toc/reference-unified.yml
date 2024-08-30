@@ -288,10 +288,7 @@
       href: ~/api/overview/azure/{moniker}/microsoft.azure.webjobs.extensions.authenticationevents-readme.md
       children:
       - Microsoft.Azure.WebJobs.Extensions.AuthenticationEvents
-      - Microsoft.Azure.WebJobs.Extensions.AuthenticationEvents.Framework
       - Microsoft.Azure.WebJobs.Extensions.AuthenticationEvents.TokenIssuanceStart
-      - Microsoft.Azure.WebJobs.Extensions.AuthenticationEvents.TokenIssuanceStart.Actions
-      - Microsoft.Azure.WebJobs.Extensions.AuthenticationEvents.TokenIssuanceStart.Data
   - name: Authorization
     href: ~/api/overview/azure/{moniker}/authorization.md
     landingPageType: Service
@@ -597,7 +594,6 @@
       href: ~/api/overview/azure/{moniker}/ai.translation.text-readme.md
       children:
       - Azure.AI.Translation.Text
-      - Azure.AI.Translation.Text.Custom
       - Microsoft.Extensions.Azure
     - name: Vision Common
       href: ~/api/overview/azure/{moniker}/ai.vision.common-readme.md
@@ -930,6 +926,18 @@
         children:
         - Microsoft.WindowsAzure.Management.Compute
         - Microsoft.WindowsAzure.Management.Compute.Models
+  - name: Computefleet
+    href: ~/api/overview/azure/{moniker}/computefleet.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Computefleet
+        href: ~/api/overview/azure/{moniker}/resourcemanager.computefleet-readme.md
+        children:
+        - Azure.ResourceManager.ComputeFleet
+        - Azure.ResourceManager.ComputeFleet.Mocking
+        - Azure.ResourceManager.ComputeFleet.Models
   - name: Confidential Ledger
     href: ~/api/overview/azure/{moniker}/confidential-ledger.md
     landingPageType: Service
@@ -1661,7 +1669,6 @@
       children:
       - Azure.Messaging.EventGrid
       - Azure.Messaging.EventGrid.Models
-      - Azure.Messaging.EventGrid.Namespaces
       - Azure.Messaging.EventGrid.SystemEvents
       - Microsoft.Extensions.Azure
     - name: Event Grid Namespaces
@@ -1714,6 +1721,10 @@
       href: ~/api/overview/azure/{moniker}/microsoft.azure.eventhubs.processor-readme.md
       children:
       - Microsoft.Azure.EventHubs.Processor
+    - name: Event Hubs - Service Fabric Processor
+      href: ~/api/overview/azure/{moniker}/microsoft.azure.eventhubs.servicefabricprocessor-readme.md
+      children:
+      - Microsoft.Azure.EventHubs.ServiceFabricProcessor
     - name: Management
       items:
       - name: Resource Management - Event Hubs
@@ -2094,10 +2105,15 @@
       href: ~/api/overview/azure/{moniker}/iot.deviceupdate-readme.md
       children:
       - Azure.IoT.DeviceUpdate
+      - Microsoft.Extensions.Azure
     - name: Models Repository
       href: ~/api/overview/azure/{moniker}/iot.modelsrepository-readme.md
       children:
       - Azure.IoT.ModelsRepository
+    - name: Time Series Insights
+      href: ~/api/overview/azure/{moniker}/iot.timeseriesinsights-readme.md
+      children:
+      - Azure.IoT.TimeSeriesInsights
     - name: Microsoft.Azure.Devices
       href: ~/api/overview/azure/{moniker}/microsoft.azure.devices-readme.md
       children:
@@ -2253,6 +2269,7 @@
       href: ~/api/overview/azure/{moniker}/security.keyvault.administration-readme.md
       children:
       - Azure.Security.KeyVault.Administration
+      - Azure.Security.KeyVault.Administration.Models
     - name: Key Vault - Certificates
       href: ~/api/overview/azure/{moniker}/security.keyvault.certificates-readme.md
       children:
@@ -2768,6 +2785,18 @@
       href: ~/api/overview/azure/{moniker}/windowsazure.mobileservices.sqlitestore-readme.md
       children:
       - Microsoft.WindowsAzure.MobileServices.SQLiteStore
+  - name: Mongocluster
+    href: ~/api/overview/azure/{moniker}/mongocluster.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Mongocluster
+        href: ~/api/overview/azure/{moniker}/resourcemanager.mongocluster-readme.md
+        children:
+        - Azure.ResourceManager.MongoCluster
+        - Azure.ResourceManager.MongoCluster.Mocking
+        - Azure.ResourceManager.MongoCluster.Models
   - name: Monitor
     href: ~/api/overview/azure/{moniker}/monitor.md
     landingPageType: Service
@@ -2784,6 +2813,7 @@
     - name: OpenTelemetry Exporter
       href: ~/api/overview/azure/{moniker}/monitor.opentelemetry.exporter-readme.md
       children:
+      - Azure.Monitor.OpenTelemetry.Events
       - Azure.Monitor.OpenTelemetry.Exporter
     - name: OpenTelemetry LiveMetrics (deprecated)
       href: ~/api/overview/azure/{moniker}/monitor.opentelemetry.livemetrics-readme.md
@@ -3401,6 +3431,7 @@
       href: ~/api/overview/azure/{moniker}/analytics.purview.account-readme.md
       children:
       - Azure.Analytics.Purview.Account
+      - Microsoft.Extensions.Azure
     - name: Purview Administration
       href: ~/api/overview/azure/{moniker}/analytics.purview.administration-readme.md
       children:
@@ -3409,6 +3440,7 @@
       href: ~/api/overview/azure/{moniker}/analytics.purview.catalog-readme.md
       children:
       - Azure.Analytics.Purview.Catalog
+      - Microsoft.Extensions.Azure
     - name: Purview Data Map
       href: ~/api/overview/azure/{moniker}/analytics.purview.datamap-readme.md
       children:
@@ -3418,6 +3450,7 @@
       href: ~/api/overview/azure/{moniker}/analytics.purview.scanning-readme.md
       children:
       - Azure.Analytics.Purview.Scanning
+      - Microsoft.Extensions.Azure
     - name: Purview Share (deprecated)
       href: ~/api/overview/azure/{moniker}/analytics.purview.share-readme.md
       children:
@@ -4546,7 +4579,7 @@
       href: ~/api/overview/azure/{moniker}/analytics.synapse.accesscontrol-readme.md
       children:
       - Azure.Analytics.Synapse.AccessControl
-      - Azure.Analytics.Synapse.AccessControl.Models
+      - Microsoft.Extensions.Azure
     - name: Synapse - Artifacts
       href: ~/api/overview/azure/{moniker}/analytics.synapse.artifacts-readme.md
       children:
