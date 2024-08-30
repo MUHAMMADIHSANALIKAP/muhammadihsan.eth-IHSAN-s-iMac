@@ -1,9 +1,10 @@
 <Type Name="IInheritedBehaviors" FullName="Microsoft.Azure.Batch.IInheritedBehaviors">
   <TypeSignature Language="C#" Value="public interface IInheritedBehaviors" />
-  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IInheritedBehaviors" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IInheritedBehaviors" FrameworkAlternate="azure-dotnet" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Batch.IInheritedBehaviors" />
   <TypeSignature Language="VB.NET" Value="Public Interface IInheritedBehaviors" />
   <TypeSignature Language="F#" Value="type IInheritedBehaviors = interface" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IInheritedBehaviors" FrameworkAlternate="azure-dotnet-preview" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
     <AssemblyVersion>14.0.0.0</AssemblyVersion>
@@ -14,6 +15,7 @@
     <AssemblyVersion>16.0.0.0</AssemblyVersion>
     <AssemblyVersion>16.1.0.0</AssemblyVersion>
     <AssemblyVersion>16.2.0.0</AssemblyVersion>
+    <AssemblyVersion>16.3.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces />
   <Docs>
@@ -33,6 +35,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.2.0.0</AssemblyVersion>
+        <AssemblyVersion>16.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Batch.BatchClientBehavior&gt;</ReturnType>

@@ -23,6 +23,7 @@
     <AssemblyVersion>12.8.2.0</AssemblyVersion>
     <AssemblyVersion>12.8.3.0</AssemblyVersion>
     <AssemblyVersion>12.9.0.0</AssemblyVersion>
+    <AssemblyVersion>12.9.1.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -50,6 +51,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.Tables</AssemblyName>
         <AssemblyVersion>12.9.0.0</AssemblyVersion>
+        <AssemblyVersion>12.9.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTimeOffset</ReturnType>
@@ -73,6 +75,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.Tables</AssemblyName>
         <AssemblyVersion>12.9.0.0</AssemblyVersion>
+        <AssemblyVersion>12.9.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -97,6 +100,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.Tables</AssemblyName>
         <AssemblyVersion>12.9.0.0</AssemblyVersion>
+        <AssemblyVersion>12.9.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Data.Tables.Sas.TableSasIPRange</ReturnType>
@@ -121,6 +125,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.Tables</AssemblyName>
         <AssemblyVersion>12.9.0.0</AssemblyVersion>
+        <AssemblyVersion>12.9.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -146,6 +151,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.Tables</AssemblyName>
         <AssemblyVersion>12.9.0.0</AssemblyVersion>
+        <AssemblyVersion>12.9.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Data.Tables.Sas.TableSasProtocol</ReturnType>
@@ -169,6 +175,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.Tables</AssemblyName>
         <AssemblyVersion>12.9.0.0</AssemblyVersion>
+        <AssemblyVersion>12.9.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -191,6 +198,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.Tables</AssemblyName>
         <AssemblyVersion>12.9.0.0</AssemblyVersion>
+        <AssemblyVersion>12.9.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.Data.Tables.Sas.TableAccountSasResourceTypes&gt;</ReturnType>
@@ -213,6 +221,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.Tables</AssemblyName>
         <AssemblyVersion>12.9.0.0</AssemblyVersion>
+        <AssemblyVersion>12.9.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -236,6 +245,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.Tables</AssemblyName>
         <AssemblyVersion>12.9.0.0</AssemblyVersion>
+        <AssemblyVersion>12.9.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTimeOffset</ReturnType>
@@ -261,6 +271,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.Tables</AssemblyName>
         <AssemblyVersion>12.9.0.0</AssemblyVersion>
+        <AssemblyVersion>12.9.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -286,6 +297,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.Tables</AssemblyName>
         <AssemblyVersion>12.9.0.0</AssemblyVersion>
+        <AssemblyVersion>12.9.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

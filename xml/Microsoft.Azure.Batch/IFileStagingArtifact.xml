@@ -1,9 +1,10 @@
 <Type Name="IFileStagingArtifact" FullName="Microsoft.Azure.Batch.IFileStagingArtifact">
   <TypeSignature Language="C#" Value="public interface IFileStagingArtifact" />
-  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IFileStagingArtifact" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IFileStagingArtifact" FrameworkAlternate="azure-dotnet" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Batch.IFileStagingArtifact" />
   <TypeSignature Language="VB.NET" Value="Public Interface IFileStagingArtifact" />
   <TypeSignature Language="F#" Value="type IFileStagingArtifact = interface" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IFileStagingArtifact" FrameworkAlternate="azure-dotnet-preview" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
     <AssemblyVersion>14.0.0.0</AssemblyVersion>
@@ -14,6 +15,7 @@
     <AssemblyVersion>16.0.0.0</AssemblyVersion>
     <AssemblyVersion>16.1.0.0</AssemblyVersion>
     <AssemblyVersion>16.2.0.0</AssemblyVersion>
+    <AssemblyVersion>16.3.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces />
   <Docs>
@@ -81,6 +83,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.2.0.0</AssemblyVersion>
+        <AssemblyVersion>16.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

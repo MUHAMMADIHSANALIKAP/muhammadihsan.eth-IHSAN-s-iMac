@@ -23,6 +23,7 @@
     <AssemblyVersion>12.8.2.0</AssemblyVersion>
     <AssemblyVersion>12.8.3.0</AssemblyVersion>
     <AssemblyVersion>12.9.0.0</AssemblyVersion>
+    <AssemblyVersion>12.9.1.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -39,6 +40,27 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TableSasBuilder ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Data.Tables.Sas.TableSasBuilder.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Data.Tables</AssemblyName>
+        <AssemblyVersion>12.9.1.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+             Initializes an instance of a <see cref="T:Azure.Data.Tables.Sas.TableSasBuilder" /> with no details set. At minimum, additional properties must be set to create a valid SaS.
+             These include setting the <see cref="P:Azure.Data.Tables.Sas.TableSasBuilder.TableName" />, permissions, and an expiry. Permissions and expiry can also be specified in a shared access policy, which can be
+             selected by specifying the name of the policy on the <see cref="P:Azure.Data.Tables.Sas.TableSasBuilder.Identifier" /> property.
+            
+             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public TableSasBuilder (Uri sasUri);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Uri sasUri) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Data.Tables.Sas.TableSasBuilder.#ctor(System.Uri)" />
@@ -48,6 +70,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.Tables</AssemblyName>
         <AssemblyVersion>12.9.0.0</AssemblyVersion>
+        <AssemblyVersion>12.9.1.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="sasUri" Type="System.Uri" />
@@ -71,6 +94,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.Tables</AssemblyName>
         <AssemblyVersion>12.9.0.0</AssemblyVersion>
+        <AssemblyVersion>12.9.1.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="tableName" Type="System.String" />
@@ -97,6 +121,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.Tables</AssemblyName>
         <AssemblyVersion>12.9.0.0</AssemblyVersion>
+        <AssemblyVersion>12.9.1.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="tableName" Type="System.String" />
@@ -123,6 +148,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.Tables</AssemblyName>
         <AssemblyVersion>12.9.0.0</AssemblyVersion>
+        <AssemblyVersion>12.9.1.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -155,6 +181,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.Tables</AssemblyName>
         <AssemblyVersion>12.9.0.0</AssemblyVersion>
+        <AssemblyVersion>12.9.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTimeOffset</ReturnType>
@@ -179,6 +206,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.Tables</AssemblyName>
         <AssemblyVersion>12.9.0.0</AssemblyVersion>
+        <AssemblyVersion>12.9.1.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -208,6 +236,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.Tables</AssemblyName>
         <AssemblyVersion>12.9.0.0</AssemblyVersion>
+        <AssemblyVersion>12.9.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -216,6 +245,8 @@
         <summary>
             An optional unique value up to 64 characters in length that
             correlates to an access policy specified for the container.
+            Note: Either the stored access policy specified by the <see cref="P:Azure.Data.Tables.Sas.TableSasBuilder.Identifier" /> or the created shared access signature must define an expiry.
+            If neither define an expiry or both do, authentication will fail.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -231,6 +262,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.Tables</AssemblyName>
         <AssemblyVersion>12.9.0.0</AssemblyVersion>
+        <AssemblyVersion>12.9.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Data.Tables.Sas.TableSasIPRange</ReturnType>
@@ -258,6 +290,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.Tables</AssemblyName>
         <AssemblyVersion>12.9.0.0</AssemblyVersion>
+        <AssemblyVersion>12.9.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -281,6 +314,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.Tables</AssemblyName>
         <AssemblyVersion>12.9.0.0</AssemblyVersion>
+        <AssemblyVersion>12.9.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -303,6 +337,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.Tables</AssemblyName>
         <AssemblyVersion>12.9.0.0</AssemblyVersion>
+        <AssemblyVersion>12.9.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -329,6 +364,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.Tables</AssemblyName>
         <AssemblyVersion>12.9.0.0</AssemblyVersion>
+        <AssemblyVersion>12.9.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Data.Tables.Sas.TableSasProtocol</ReturnType>
@@ -355,6 +391,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.Tables</AssemblyName>
         <AssemblyVersion>12.9.0.0</AssemblyVersion>
+        <AssemblyVersion>12.9.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -378,6 +415,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.Tables</AssemblyName>
         <AssemblyVersion>12.9.0.0</AssemblyVersion>
+        <AssemblyVersion>12.9.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -400,6 +438,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.Tables</AssemblyName>
         <AssemblyVersion>12.9.0.0</AssemblyVersion>
+        <AssemblyVersion>12.9.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -427,6 +466,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.Tables</AssemblyName>
         <AssemblyVersion>12.9.0.0</AssemblyVersion>
+        <AssemblyVersion>12.9.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -452,6 +492,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.Tables</AssemblyName>
         <AssemblyVersion>12.9.0.0</AssemblyVersion>
+        <AssemblyVersion>12.9.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -484,6 +525,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.Tables</AssemblyName>
         <AssemblyVersion>12.9.0.0</AssemblyVersion>
+        <AssemblyVersion>12.9.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTimeOffset</ReturnType>
@@ -509,6 +551,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.Tables</AssemblyName>
         <AssemblyVersion>12.9.0.0</AssemblyVersion>
+        <AssemblyVersion>12.9.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -531,6 +574,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.Tables</AssemblyName>
         <AssemblyVersion>12.9.0.0</AssemblyVersion>
+        <AssemblyVersion>12.9.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Data.Tables.Sas.TableSasQueryParameters</ReturnType>
@@ -563,6 +607,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.Tables</AssemblyName>
         <AssemblyVersion>12.9.0.0</AssemblyVersion>
+        <AssemblyVersion>12.9.1.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

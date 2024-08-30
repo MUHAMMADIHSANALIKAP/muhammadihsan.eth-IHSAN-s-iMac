@@ -23,6 +23,7 @@
     <AssemblyVersion>12.8.2.0</AssemblyVersion>
     <AssemblyVersion>12.8.3.0</AssemblyVersion>
     <AssemblyVersion>12.9.0.0</AssemblyVersion>
+    <AssemblyVersion>12.9.1.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.RequestFailedException</BaseTypeName>
@@ -49,6 +50,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.Tables</AssemblyName>
         <AssemblyVersion>12.9.0.0</AssemblyVersion>
+        <AssemblyVersion>12.9.1.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="requestFailedException" Type="Azure.RequestFailedException" />
@@ -71,6 +73,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.Tables</AssemblyName>
         <AssemblyVersion>12.9.0.0</AssemblyVersion>
+        <AssemblyVersion>12.9.1.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="info" Type="System.Runtime.Serialization.SerializationInfo" />
@@ -96,6 +99,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.Tables</AssemblyName>
         <AssemblyVersion>12.9.0.0</AssemblyVersion>
+        <AssemblyVersion>12.9.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
