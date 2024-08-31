@@ -15,6 +15,7 @@
     <AssemblyVersion>1.4.0.0</AssemblyVersion>
     <AssemblyVersion>1.5.0.0</AssemblyVersion>
     <AssemblyVersion>1.6.0.0</AssemblyVersion>
+    <AssemblyVersion>1.7.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -44,8 +45,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
         <AssemblyVersion>1.6.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="access" Type="Azure.ResourceManager.Compute.Models.AccessLevel" />
@@ -67,8 +68,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
         <AssemblyVersion>1.6.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.Models.AccessLevel</ReturnType>
@@ -88,8 +89,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
         <AssemblyVersion>1.6.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -109,8 +110,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
         <AssemblyVersion>1.6.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.Compute.Models.DiskImageFileFormat&gt;</ReturnType>
@@ -130,8 +131,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
         <AssemblyVersion>1.6.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -154,8 +155,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
         <AssemblyVersion>1.6.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.Models.GrantAccessData</ReturnType>
@@ -187,8 +188,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
         <AssemblyVersion>1.6.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -219,8 +220,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
         <AssemblyVersion>1.6.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.Models.GrantAccessData</ReturnType>
@@ -252,8 +253,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
         <AssemblyVersion>1.6.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -282,8 +283,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
         <AssemblyVersion>1.6.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>

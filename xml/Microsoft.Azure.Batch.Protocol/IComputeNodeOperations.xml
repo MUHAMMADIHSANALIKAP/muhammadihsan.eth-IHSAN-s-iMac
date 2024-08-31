@@ -1,9 +1,10 @@
 <Type Name="IComputeNodeOperations" FullName="Microsoft.Azure.Batch.Protocol.IComputeNodeOperations">
   <TypeSignature Language="C#" Value="public interface IComputeNodeOperations" />
-  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IComputeNodeOperations" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IComputeNodeOperations" FrameworkAlternate="azure-dotnet" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Batch.Protocol.IComputeNodeOperations" />
   <TypeSignature Language="VB.NET" Value="Public Interface IComputeNodeOperations" />
   <TypeSignature Language="F#" Value="type IComputeNodeOperations = interface" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IComputeNodeOperations" FrameworkAlternate="azure-dotnet-preview" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
     <AssemblyVersion>14.0.0.0</AssemblyVersion>
@@ -14,6 +15,7 @@
     <AssemblyVersion>16.0.0.0</AssemblyVersion>
     <AssemblyVersion>16.1.0.0</AssemblyVersion>
     <AssemblyVersion>16.2.0.0</AssemblyVersion>
+    <AssemblyVersion>16.3.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces />
   <Docs>
@@ -33,6 +35,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.2.0.0</AssemblyVersion>
+        <AssemblyVersion>16.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationHeaderResponse&lt;Microsoft.Azure.Batch.Protocol.Models.ComputeNodeAddUserHeaders&gt;&gt;</ReturnType>
@@ -90,6 +93,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.2.0.0</AssemblyVersion>
+        <AssemblyVersion>16.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationHeaderResponse&lt;Microsoft.Azure.Batch.Protocol.Models.ComputeNodeDeleteUserHeaders&gt;&gt;</ReturnType>
@@ -147,6 +151,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.2.0.0</AssemblyVersion>
+        <AssemblyVersion>16.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationHeaderResponse&lt;Microsoft.Azure.Batch.Protocol.Models.ComputeNodeDisableSchedulingHeaders&gt;&gt;</ReturnType>
@@ -207,6 +212,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.2.0.0</AssemblyVersion>
+        <AssemblyVersion>16.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationHeaderResponse&lt;Microsoft.Azure.Batch.Protocol.Models.ComputeNodeEnableSchedulingHeaders&gt;&gt;</ReturnType>
@@ -261,6 +267,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.2.0.0</AssemblyVersion>
+        <AssemblyVersion>16.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&lt;System.IO.Stream,Microsoft.Azure.Batch.Protocol.Models.ComputeNodeGetRemoteDesktopHeaders&gt;&gt;</ReturnType>
@@ -322,6 +329,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.2.0.0</AssemblyVersion>
+        <AssemblyVersion>16.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&lt;Microsoft.Azure.Batch.Protocol.Models.ComputeNodeGetRemoteLoginSettingsResult,Microsoft.Azure.Batch.Protocol.Models.ComputeNodeGetRemoteLoginSettingsHeaders&gt;&gt;</ReturnType>
@@ -382,6 +390,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.2.0.0</AssemblyVersion>
+        <AssemblyVersion>16.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&lt;Microsoft.Azure.Batch.Protocol.Models.ComputeNode,Microsoft.Azure.Batch.Protocol.Models.ComputeNodeGetHeaders&gt;&gt;</ReturnType>
@@ -435,6 +444,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.2.0.0</AssemblyVersion>
+        <AssemblyVersion>16.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Batch.Protocol.Models.ComputeNode&gt;,Microsoft.Azure.Batch.Protocol.Models.ComputeNodeListHeaders&gt;&gt;</ReturnType>
@@ -484,6 +494,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.2.0.0</AssemblyVersion>
+        <AssemblyVersion>16.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Batch.Protocol.Models.ComputeNode&gt;,Microsoft.Azure.Batch.Protocol.Models.ComputeNodeListHeaders&gt;&gt;</ReturnType>
@@ -533,6 +544,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.2.0.0</AssemblyVersion>
+        <AssemblyVersion>16.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationHeaderResponse&lt;Microsoft.Azure.Batch.Protocol.Models.ComputeNodeRebootHeaders&gt;&gt;</ReturnType>
@@ -592,6 +604,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.2.0.0</AssemblyVersion>
+        <AssemblyVersion>16.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationHeaderResponse&lt;Microsoft.Azure.Batch.Protocol.Models.ComputeNodeReimageHeaders&gt;&gt;</ReturnType>
@@ -652,6 +665,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.2.0.0</AssemblyVersion>
+        <AssemblyVersion>16.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationHeaderResponse&lt;Microsoft.Azure.Batch.Protocol.Models.ComputeNodeUpdateUserHeaders&gt;&gt;</ReturnType>
@@ -717,6 +731,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.2.0.0</AssemblyVersion>
+        <AssemblyVersion>16.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&lt;Microsoft.Azure.Batch.Protocol.Models.UploadBatchServiceLogsResult,Microsoft.Azure.Batch.Protocol.Models.ComputeNodeUploadBatchServiceLogsHeaders&gt;&gt;</ReturnType>

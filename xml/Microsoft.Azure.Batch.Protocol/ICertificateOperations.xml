@@ -1,9 +1,10 @@
 <Type Name="ICertificateOperations" FullName="Microsoft.Azure.Batch.Protocol.ICertificateOperations">
   <TypeSignature Language="C#" Value="public interface ICertificateOperations" />
-  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICertificateOperations" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICertificateOperations" FrameworkAlternate="azure-dotnet" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Batch.Protocol.ICertificateOperations" />
   <TypeSignature Language="VB.NET" Value="Public Interface ICertificateOperations" />
   <TypeSignature Language="F#" Value="type ICertificateOperations = interface" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit ICertificateOperations" FrameworkAlternate="azure-dotnet-preview" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
     <AssemblyVersion>14.0.0.0</AssemblyVersion>
@@ -14,6 +15,7 @@
     <AssemblyVersion>16.0.0.0</AssemblyVersion>
     <AssemblyVersion>16.1.0.0</AssemblyVersion>
     <AssemblyVersion>16.2.0.0</AssemblyVersion>
+    <AssemblyVersion>16.3.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces />
   <Docs>
@@ -33,6 +35,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.2.0.0</AssemblyVersion>
+        <AssemblyVersion>16.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -90,6 +93,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.2.0.0</AssemblyVersion>
+        <AssemblyVersion>16.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -163,6 +167,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.2.0.0</AssemblyVersion>
+        <AssemblyVersion>16.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -237,6 +242,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.2.0.0</AssemblyVersion>
+        <AssemblyVersion>16.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -302,6 +308,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.2.0.0</AssemblyVersion>
+        <AssemblyVersion>16.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -363,6 +370,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.2.0.0</AssemblyVersion>
+        <AssemblyVersion>16.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

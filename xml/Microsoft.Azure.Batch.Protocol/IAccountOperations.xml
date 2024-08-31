@@ -1,9 +1,10 @@
 <Type Name="IAccountOperations" FullName="Microsoft.Azure.Batch.Protocol.IAccountOperations">
   <TypeSignature Language="C#" Value="public interface IAccountOperations" />
-  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IAccountOperations" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IAccountOperations" FrameworkAlternate="azure-dotnet" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Batch.Protocol.IAccountOperations" />
   <TypeSignature Language="VB.NET" Value="Public Interface IAccountOperations" />
   <TypeSignature Language="F#" Value="type IAccountOperations = interface" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IAccountOperations" FrameworkAlternate="azure-dotnet-preview" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
     <AssemblyVersion>14.0.0.0</AssemblyVersion>
@@ -14,6 +15,7 @@
     <AssemblyVersion>16.0.0.0</AssemblyVersion>
     <AssemblyVersion>16.1.0.0</AssemblyVersion>
     <AssemblyVersion>16.2.0.0</AssemblyVersion>
+    <AssemblyVersion>16.3.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces />
   <Docs>
@@ -33,6 +35,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.2.0.0</AssemblyVersion>
+        <AssemblyVersion>16.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Batch.Protocol.Models.PoolNodeCounts&gt;,Microsoft.Azure.Batch.Protocol.Models.AccountListPoolNodeCountsHeaders&gt;&gt;</ReturnType>
@@ -84,6 +87,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.2.0.0</AssemblyVersion>
+        <AssemblyVersion>16.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Batch.Protocol.Models.PoolNodeCounts&gt;,Microsoft.Azure.Batch.Protocol.Models.AccountListPoolNodeCountsHeaders&gt;&gt;</ReturnType>
@@ -131,6 +135,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.2.0.0</AssemblyVersion>
+        <AssemblyVersion>16.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Batch.Protocol.Models.ImageInformation&gt;,Microsoft.Azure.Batch.Protocol.Models.AccountListSupportedImagesHeaders&gt;&gt;</ReturnType>
@@ -181,6 +186,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.2.0.0</AssemblyVersion>
+        <AssemblyVersion>16.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Batch.Protocol.Models.ImageInformation&gt;,Microsoft.Azure.Batch.Protocol.Models.AccountListSupportedImagesHeaders&gt;&gt;</ReturnType>

@@ -33,6 +33,7 @@
     <AssemblyVersion>4.24.0.0</AssemblyVersion>
     <AssemblyVersion>4.24.1.0</AssemblyVersion>
     <AssemblyVersion>4.25.0.0</AssemblyVersion>
+    <AssemblyVersion>4.26.0.0</AssemblyVersion>
   </AssemblyInfo>
   <AssemblyInfo>
     <AssemblyName>Azure.Messaging.EventGrid.SystemEvents</AssemblyName>
@@ -63,8 +64,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.25.0.0</AssemblyVersion>
+        <AssemblyVersion>4.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.Messaging.EventGrid.SystemEvents.AcsRecordingChannelType&gt;</ReturnType>
@@ -84,8 +85,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.25.0.0</AssemblyVersion>
+        <AssemblyVersion>4.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.Messaging.EventGrid.SystemEvents.AcsRecordingContentType&gt;</ReturnType>
@@ -105,8 +106,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.25.0.0</AssemblyVersion>
+        <AssemblyVersion>4.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.Messaging.EventGrid.SystemEvents.AcsRecordingFormatType&gt;</ReturnType>
@@ -126,8 +127,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.25.0.0</AssemblyVersion>
+        <AssemblyVersion>4.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -153,8 +154,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.25.0.0</AssemblyVersion>
+        <AssemblyVersion>4.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid.SystemEvents</AssemblyName>
@@ -184,8 +185,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.25.0.0</AssemblyVersion>
+        <AssemblyVersion>4.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid.SystemEvents</AssemblyName>
@@ -209,8 +210,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.25.0.0</AssemblyVersion>
+        <AssemblyVersion>4.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid.SystemEvents</AssemblyName>
@@ -240,8 +241,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.25.0.0</AssemblyVersion>
+        <AssemblyVersion>4.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid.SystemEvents</AssemblyName>
@@ -265,8 +266,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.25.0.0</AssemblyVersion>
+        <AssemblyVersion>4.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid.SystemEvents</AssemblyName>
@@ -290,8 +291,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.25.0.0</AssemblyVersion>
+        <AssemblyVersion>4.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid.SystemEvents</AssemblyName>

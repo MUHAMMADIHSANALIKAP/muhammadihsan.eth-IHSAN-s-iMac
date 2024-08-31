@@ -1,0 +1,80 @@
+<Type Name="ApplicationInsightsEventLogger" FullName="Azure.Monitor.OpenTelemetry.Events.ApplicationInsightsEventLogger">
+  <TypeSignature Language="C#" Value="public sealed class ApplicationInsightsEventLogger : Azure.Monitor.OpenTelemetry.Events.IApplicationInsightsEventLogger" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ApplicationInsightsEventLogger extends System.Object implements class Azure.Monitor.OpenTelemetry.Events.IApplicationInsightsEventLogger" />
+  <TypeSignature Language="DocId" Value="T:Azure.Monitor.OpenTelemetry.Events.ApplicationInsightsEventLogger" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ApplicationInsightsEventLogger&#xA;Implements IApplicationInsightsEventLogger" />
+  <TypeSignature Language="F#" Value="type ApplicationInsightsEventLogger = class&#xA;    interface IApplicationInsightsEventLogger" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Monitor.OpenTelemetry.Exporter</AssemblyName>
+    <AssemblyVersion>1.4.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Azure.Monitor.OpenTelemetry.Events.IApplicationInsightsEventLogger</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Default logger for logging Application Insights custom events.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ApplicationInsightsEventLogger (Microsoft.Extensions.Logging.ILoggerFactory loggerFactory);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Extensions.Logging.ILoggerFactory loggerFactory) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Monitor.OpenTelemetry.Events.ApplicationInsightsEventLogger.#ctor(Microsoft.Extensions.Logging.ILoggerFactory)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (loggerFactory As ILoggerFactory)" />
+      <MemberSignature Language="F#" Value="new Azure.Monitor.OpenTelemetry.Events.ApplicationInsightsEventLogger : Microsoft.Extensions.Logging.ILoggerFactory -&gt; Azure.Monitor.OpenTelemetry.Events.ApplicationInsightsEventLogger" Usage="new Azure.Monitor.OpenTelemetry.Events.ApplicationInsightsEventLogger loggerFactory" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Monitor.OpenTelemetry.Exporter</AssemblyName>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="loggerFactory" Type="Microsoft.Extensions.Logging.ILoggerFactory" />
+      </Parameters>
+      <Docs>
+        <param name="loggerFactory">LoggerFactory instance for logging events.</param>
+        <summary>
+            Creates an instance of CustomEventLogger to log custom events.
+            </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException" />
+      </Docs>
+    </Member>
+    <Member MemberName="TrackEvent">
+      <MemberSignature Language="C#" Value="public void TrackEvent (string name, System.Collections.Generic.IReadOnlyList&lt;System.Collections.Generic.KeyValuePair&lt;string,object?&gt;&gt;? attributes = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void TrackEvent(string name, class System.Collections.Generic.IReadOnlyList`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, object&gt;&gt; attributes) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Monitor.OpenTelemetry.Events.ApplicationInsightsEventLogger.TrackEvent(System.String,System.Collections.Generic.IReadOnlyList{System.Collections.Generic.KeyValuePair{System.String,System.Object}})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub TrackEvent (name As String, Optional attributes As IReadOnlyList(Of KeyValuePair(Of String, Object)) = Nothing)" />
+      <MemberSignature Language="F#" Value="abstract member TrackEvent : string * System.Collections.Generic.IReadOnlyList&lt;System.Collections.Generic.KeyValuePair&lt;string, obj&gt;&gt; -&gt; unit&#xA;override this.TrackEvent : string * System.Collections.Generic.IReadOnlyList&lt;System.Collections.Generic.KeyValuePair&lt;string, obj&gt;&gt; -&gt; unit" Usage="applicationInsightsEventLogger.TrackEvent (name, attributes)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Azure.Monitor.OpenTelemetry.Events.IApplicationInsightsEventLogger.TrackEvent(System.String,System.Collections.Generic.IReadOnlyList{System.Collections.Generic.KeyValuePair{System.String,System.Object}})</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Monitor.OpenTelemetry.Exporter</AssemblyName>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="attributes" Type="System.Collections.Generic.IReadOnlyList&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.Object&gt;&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="name">Name of the CustomEvent.</param>
+        <param name="attributes">Custom dimensions of the event.</param>
+        <summary>
+            Tracks Application Insights custom events.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

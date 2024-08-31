@@ -12,6 +12,7 @@
     <AssemblyName>Azure.AI.Translation.Document</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <AssemblyVersion>2.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -42,7 +43,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Translation.Document</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="targetUri" Type="System.Uri" />
@@ -67,7 +68,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Translation.Document</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -90,7 +91,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Translation.Document</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Azure.AI.Translation.Document.TranslationGlossary&gt;</ReturnType>
@@ -111,7 +112,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Translation.Document</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -137,7 +138,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Translation.Document</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AI.Translation.Document.TranslationTarget</ReturnType>
@@ -169,7 +170,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Translation.Document</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -200,7 +201,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Translation.Document</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AI.Translation.Document.TranslationTarget</ReturnType>
@@ -232,7 +233,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Translation.Document</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -261,7 +262,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Translation.Document</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
@@ -289,7 +290,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Translation.Document</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>

@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.AppComplianceAutomation</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -37,6 +38,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppComplianceAutomation</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;System.String&gt;</ReturnType>
@@ -57,6 +59,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppComplianceAutomation</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
@@ -77,6 +80,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppComplianceAutomation</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -97,6 +101,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppComplianceAutomation</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -117,6 +122,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppComplianceAutomation</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.AppComplianceAutomation.Models.RecommendationDetails&gt;</ReturnType>
@@ -137,6 +143,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppComplianceAutomation</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.AppComplianceAutomation.Models.ResponsibilityResourceItem&gt;</ReturnType>
@@ -157,6 +164,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppComplianceAutomation</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -177,6 +185,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppComplianceAutomation</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.AppComplianceAutomation.Models.ResponsibilityEnvironment&gt;</ReturnType>
@@ -197,6 +206,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppComplianceAutomation</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -217,6 +227,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppComplianceAutomation</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.AppComplianceAutomation.Models.ResponsibilitySeverity&gt;</ReturnType>
@@ -237,6 +248,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppComplianceAutomation</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.AppComplianceAutomation.Models.ResponsibilityStatus&gt;</ReturnType>
@@ -257,6 +269,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppComplianceAutomation</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -277,6 +290,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppComplianceAutomation</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.AppComplianceAutomation.Models.ResponsibilityType&gt;</ReturnType>
@@ -300,6 +314,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppComplianceAutomation</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppComplianceAutomation.Models.CustomerResponsibility</ReturnType>
@@ -332,6 +347,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppComplianceAutomation</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -363,6 +379,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppComplianceAutomation</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppComplianceAutomation.Models.CustomerResponsibility</ReturnType>
@@ -395,6 +412,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppComplianceAutomation</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -424,6 +442,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppComplianceAutomation</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
@@ -451,6 +470,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppComplianceAutomation</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>

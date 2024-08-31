@@ -1,9 +1,10 @@
 <Type Name="IBatchRequest&lt;TResponse&gt;" FullName="Microsoft.Azure.Batch.Protocol.IBatchRequest&lt;TResponse&gt;">
   <TypeSignature Language="C#" Value="public interface IBatchRequest&lt;TResponse&gt; : Microsoft.Azure.Batch.Protocol.IBatchRequest" />
-  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IBatchRequest`1&lt;TResponse&gt; implements class Microsoft.Azure.Batch.Protocol.IBatchRequest" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IBatchRequest`1&lt;TResponse&gt; implements class Microsoft.Azure.Batch.Protocol.IBatchRequest" FrameworkAlternate="azure-dotnet" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Batch.Protocol.IBatchRequest`1" />
   <TypeSignature Language="VB.NET" Value="Public Interface IBatchRequest(Of TResponse)&#xA;Implements IBatchRequest" />
   <TypeSignature Language="F#" Value="type IBatchRequest&lt;'Response&gt; = interface&#xA;    interface IBatchRequest" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IBatchRequest`1&lt;TResponse&gt; implements class Microsoft.Azure.Batch.Protocol.IBatchRequest" FrameworkAlternate="azure-dotnet-preview" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
     <AssemblyVersion>14.0.0.0</AssemblyVersion>
@@ -14,6 +15,7 @@
     <AssemblyVersion>16.0.0.0</AssemblyVersion>
     <AssemblyVersion>16.1.0.0</AssemblyVersion>
     <AssemblyVersion>16.2.0.0</AssemblyVersion>
+    <AssemblyVersion>16.3.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeParameters>
     <TypeParameter Name="TResponse" />
@@ -41,6 +43,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.2.0.0</AssemblyVersion>
+        <AssemblyVersion>16.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;TResponse&gt;</ReturnType>

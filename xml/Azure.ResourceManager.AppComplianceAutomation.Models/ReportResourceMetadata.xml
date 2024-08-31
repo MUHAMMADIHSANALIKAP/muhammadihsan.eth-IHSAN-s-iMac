@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.AppComplianceAutomation</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -37,6 +38,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppComplianceAutomation</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="resourceId" Type="Azure.Core.ResourceIdentifier" />
@@ -59,6 +61,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppComplianceAutomation</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -79,6 +82,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppComplianceAutomation</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -99,6 +103,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppComplianceAutomation</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -119,6 +124,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppComplianceAutomation</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.AppComplianceAutomation.Models.ReportResourceOrigin&gt;</ReturnType>
@@ -139,6 +145,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppComplianceAutomation</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.Core.ResourceType&gt;</ReturnType>
@@ -162,6 +169,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppComplianceAutomation</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppComplianceAutomation.Models.ReportResourceMetadata</ReturnType>
@@ -194,6 +202,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppComplianceAutomation</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -225,6 +234,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppComplianceAutomation</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppComplianceAutomation.Models.ReportResourceMetadata</ReturnType>
@@ -257,6 +267,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppComplianceAutomation</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -286,6 +297,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppComplianceAutomation</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
