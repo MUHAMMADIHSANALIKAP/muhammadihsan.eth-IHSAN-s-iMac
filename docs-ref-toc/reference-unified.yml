@@ -1726,6 +1726,10 @@
       href: ~/api/overview/azure/{moniker}/microsoft.azure.eventhubs.processor-readme.md
       children:
       - Microsoft.Azure.EventHubs.Processor
+    - name: Event Hubs - Service Fabric Processor
+      href: ~/api/overview/azure/{moniker}/microsoft.azure.eventhubs.servicefabricprocessor-readme.md
+      children:
+      - Microsoft.Azure.EventHubs.ServiceFabricProcessor
     - name: Management
       items:
       - name: Resource Management - Event Hubs
@@ -2106,6 +2110,7 @@
       href: ~/api/overview/azure/{moniker}/iot.deviceupdate-readme.md
       children:
       - Azure.IoT.DeviceUpdate
+      - Microsoft.Extensions.Azure
     - name: Models Repository
       href: ~/api/overview/azure/{moniker}/iot.modelsrepository-readme.md
       children:
@@ -2265,6 +2270,7 @@
       href: ~/api/overview/azure/{moniker}/security.keyvault.administration-readme.md
       children:
       - Azure.Security.KeyVault.Administration
+      - Azure.Security.KeyVault.Administration.Models
     - name: Key Vault - Certificates
       href: ~/api/overview/azure/{moniker}/security.keyvault.certificates-readme.md
       children:
@@ -2808,6 +2814,7 @@
     - name: OpenTelemetry Exporter
       href: ~/api/overview/azure/{moniker}/monitor.opentelemetry.exporter-readme.md
       children:
+      - Azure.Monitor.OpenTelemetry.Events
       - Azure.Monitor.OpenTelemetry.Exporter
     - name: OpenTelemetry LiveMetrics (deprecated)
       href: ~/api/overview/azure/{moniker}/monitor.opentelemetry.livemetrics-readme.md
@@ -3425,6 +3432,7 @@
       href: ~/api/overview/azure/{moniker}/analytics.purview.account-readme.md
       children:
       - Azure.Analytics.Purview.Account
+      - Microsoft.Extensions.Azure
     - name: Purview Administration
       href: ~/api/overview/azure/{moniker}/analytics.purview.administration-readme.md
       children:
@@ -3433,6 +3441,7 @@
       href: ~/api/overview/azure/{moniker}/analytics.purview.catalog-readme.md
       children:
       - Azure.Analytics.Purview.Catalog
+      - Microsoft.Extensions.Azure
     - name: Purview Data Map
       href: ~/api/overview/azure/{moniker}/analytics.purview.datamap-readme.md
       children:
@@ -3442,6 +3451,7 @@
       href: ~/api/overview/azure/{moniker}/analytics.purview.scanning-readme.md
       children:
       - Azure.Analytics.Purview.Scanning
+      - Microsoft.Extensions.Azure
     - name: Purview Share (deprecated)
       href: ~/api/overview/azure/{moniker}/analytics.purview.share-readme.md
       children:
